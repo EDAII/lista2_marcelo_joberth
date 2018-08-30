@@ -1,8 +1,7 @@
 # algoritmo_ordenacao_lista2
 
-Alunos:
-**Marcelo Araujo dos Santos     16/0035481**
-
+Alunos:<br/>
+**Marcelo Araujo dos Santos     16/0035481**<br/>
 **Joberth Rogers Tavares Costa  16/0128013**
 
 
@@ -18,10 +17,10 @@ Instale build-essential executando no terminal
 - sudo apt-get install build-essential
 
 Instale outros pacotes com o comando abaixo
-- sudo apt-get install libsdl-image1.2 libsdl-image1.2-dev guile-1.8 \
-  guile-1.8-dev libsdl1.2debian libart-2.0-dev libaudiofile-dev \
-  libesd0-dev libdirectfb-dev libdirectfb-extra libfreetype6-dev \
-  libxext-dev x11proto-xext-dev libfreetype6 libaa1 libaa1-dev \
+- sudo apt-get install libsdl-image1.2 libsdl-image1.2-dev guile-1.8 \\<br/>
+  guile-1.8-dev libsdl1.2debian libart-2.0-dev libaudiofile-dev \\<br/>
+  libesd0-dev libdirectfb-dev libdirectfb-extra libfreetype6-dev \\<br/>
+  libxext-dev x11proto-xext-dev libfreetype6 libaa1 libaa1-dev \\<br/>
   libslang2-dev libasound2 libasound2-dev*
 
 Agora extraia o arquivo que foi baixado 'libgraph-1.0.2.tar.gz'.
@@ -40,12 +39,15 @@ Entre na pasta do projeto com
 - cd algoritmo_ordenacao_lista2
 
 Compile o programa com
-- gcc main.c -o saida -lgraph
+- gcc main.c -o saida.out -lgraph
 
 E finalmente execute o programa com
-- ./saida
+- ./saida.out
 
 
 
 Para aprender mais sobre a biblioteca graphics.h
 https://www.programmingsimplified.com/c/graphics.h
+
+Dúvidas sobre a instalação, clique aqui
+https://askubuntu.com/questions/525051/how-do-i-use-graphics-h-in-ubuntu
